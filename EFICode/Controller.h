@@ -49,7 +49,7 @@ struct Controller {
 
   double fuelRatio; //unitless
   double idleVal;
-  double resetval;  //changed name of variable
+    double resetVal;
   double startupVal;
   
   unsigned long totalPulse[numTableCols];
